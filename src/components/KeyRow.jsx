@@ -7,7 +7,7 @@ const KeyRow = ({ keys }) => {
     <div className="key-row">
       {keys.map((key, index) => (
         <Key
-          letter={key.letter}
+          key_name={key.key_name}
           width={key.width}
           height={key.height}
           key={index}
