@@ -1,6 +1,6 @@
 .key {
-  background-color: #555;
-  color: #fff;
+  background-color: #2c3e50;
+  color: #ecf0f1;
   margin: 2px;
   border-radius: 5px;
   display: flex;
@@ -9,29 +9,37 @@
   cursor: pointer;
   user-select: none;
   font-size: 14px;
-  transition: background-color 0.2s;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .key:hover {
-  background-color: #777;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
-
+.key:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 .key.default {
-  background-color: #555;
+  background-color: #34495e;
 }
 
 .key.pretty {
-  background-color: #2196f3;
+  background-color: #3498db;
+  background-image: linear-gradient(135deg, #3498db, #2980b9);
 }
 
 .key.subst {
-  background-color: #ff9800;
+  background-color: #e67e22;
+  background-image: linear-gradient(135deg, #e67e22, #d35400);
 }
 
 .key.modifiers {
-  background-color: #9c27b0;
+  background-color: #9b59b6;
+  background-image: linear-gradient(135deg, #9b59b6, #8e44ad);
 }
 
 .key.mod0,
@@ -44,5 +52,16 @@
 .key.mod7,
 .key.mod8,
 .key.mod9 {
-  background-color: #4caf50;
+  background-color: #989898;
+  background-image: linear-gradient(135deg, #ccbc2e, #aea927);
+}
+
+@keyframes keyPress {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+.key:active {
+  animation: keyPress 0.1s ease-in-out;
 }
