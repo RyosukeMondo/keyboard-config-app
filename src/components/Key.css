@@ -15,3 +15,34 @@
 .key:hover {
   background-color: #777;
 }
+
+
+
+.key.default {
+  background-color: #555;
+}
+
+.key.pretty {
+  background-color: #2196f3;
+}
+
+.key.subst {
+  background-color: #ff9800;
+}
+
+.key.modifiers {
+  background-color: #9c27b0;
+}
+
+.key.mod0,
+.key.mod1,
+.key.mod2,
+.key.mod3,
+.key.mod4,
+.key.mod5,
+.key.mod6,
+.key.mod7,
+.key.mod8,
+.key.mod9 {
+  background-color: #4caf50;
+}

@@ -1,0 +1,13 @@
+.mode-selector {
+  margin-bottom: 20px;
+}
+
+.mode-selector label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.mode-selector select {
+  padding: 5px;
+  font-size: 16px;
+}
