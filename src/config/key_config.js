@@ -1,13 +1,19 @@
-let width_min = 1.14;
+let width_min = 1.137;
 let width_mid = 1.32;
 let width_max = 1.30;
+let width_tab = 2;
+let width_caps = 2.3;
+let width_enter = 1.7;
+let width_left_shift = 3.1;
+let width_space = 5.5;
+let width_arrow = 1.24;
 let height_min = 0.75;
 let height_mid = 1.26;
 let height_max = 1.43;
 let keyConfig = [
   // Top row
   [
-    { letter: 'Esc', width: 1.1, height: height_min },
+    { letter: 'Esc', width: width_min, height: height_min },
     { letter: 'F1', width: width_min, height: height_min },
     { letter: 'F2', width: width_min, height: height_min },
     { letter: 'F3', width: width_min, height: height_min },
@@ -41,11 +47,11 @@ let keyConfig = [
     { letter: '-', width: width_max, height: height_mid },
     { letter: '^', width: width_max, height: height_mid },
     { letter: '¥', width: width_max, height: height_mid },
-    { letter: 'BK', width: 1.3, height: height_mid },
+    { letter: 'BK', width: width_max, height: height_mid },
   ],
   // Third row
   [
-    { letter: 'Tab', width: 2, height: height_mid },
+    { letter: 'Tab', width: width_tab, height: height_mid },
     { letter: 'Q', width: width_max, height: height_mid },
     { letter: 'W', width: width_max, height: height_mid },
     { letter: 'E', width: width_max, height: height_mid },
@@ -58,11 +64,11 @@ let keyConfig = [
     { letter: 'P', width: width_max, height: height_mid },
     { letter: '@', width: width_max, height: height_mid },
     { letter: '[', width: width_max, height: height_mid },
-    { letter: '', width: 2, height: height_mid },
+    { letter: '', width: width_tab, height: height_mid },
   ],
   // Fourth row
   [
-    { letter: 'Caps', width: 2.3, height: height_mid },
+    { letter: 'Caps', width: width_caps, height: height_mid },
     { letter: 'A', width: width_max, height: height_mid },
     { letter: 'S', width: width_max, height: height_mid },
     { letter: 'D', width: width_max, height: height_mid },
@@ -75,11 +81,11 @@ let keyConfig = [
     { letter: ';', width: width_max, height: height_mid },
     { letter: ':', width: width_max, height: height_mid },
     { letter: ']', width: width_max, height: height_mid },
-    { letter: 'Enter', width: 1.7, height: height_mid },
+    { letter: 'Enter', width: width_enter, height: height_mid },
   ],
   // Fifth row
   [
-    { letter: 'Shift', width: 3.1, height: height_mid },
+    { letter: 'Shift', width: width_left_shift, height: height_mid },
     { letter: 'Z', width: width_max, height: height_mid },
     { letter: 'X', width: width_max, height: height_mid },
     { letter: 'C', width: width_max, height: height_mid },
@@ -91,7 +97,7 @@ let keyConfig = [
     { letter: '.', width: width_max, height: height_mid },
     { letter: '/', width: width_max, height: height_mid },
     { letter: '\\', width: width_max, height: height_mid },
-    { letter: 'Shift', width: 2.30, height: height_mid },
+    { letter: 'Shift', width: width_caps, height: height_mid },
   ],
   // Sixth row
   [
@@ -100,20 +106,20 @@ let keyConfig = [
     { letter: 'Win', width: width_mid, height: height_max },
     { letter: 'Alt', width: width_mid, height: height_max },
     { letter: 'Ctrl', width: width_mid, height: height_max },
-    { letter: 'Space', width: 5.5, height: height_max },
+    { letter: 'Space', width: width_space, height: height_max },
     { letter: '変換', width: width_mid, height: height_max },
     { letter: 'Kana', width: width_mid, height: height_max },
     { letter: 'Ctrl', width: width_mid, height: height_max },
-    { letter: '', width: 1.25, height: height_max },
-    { letter: '↑', width: 1.25, height: height_max },
-    { letter: '', width: 1.25, height: height_max },
+    { letter: '', width: width_arrow, height: height_max },
+    { letter: '↑', width: width_arrow, height: height_max },
+    { letter: '', width: width_arrow, height: height_max },
   ],
   // Last row
   [
     { letter: '', width: 16.9, height: height_max },
-    { letter: '←', width: 1.25, height: height_max },
-    { letter: '↓', width: 1.25, height: height_max },
-    { letter: '→', width: 1.25, height: height_max },
+    { letter: '←', width: width_arrow, height: height_max },
+    { letter: '↓', width: width_arrow, height: height_max },
+    { letter: '→', width: width_arrow, height: height_max },
   ]
 ];
 
