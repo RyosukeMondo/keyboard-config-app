@@ -7,61 +7,54 @@ const Key = ({ key_name, width, height }) => {
   const { keyAssignments, mode } = useContext(KeyAssignContext);
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  const openModal = () => {
-    setModalIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-  };
+  const openModal = () => setModalIsOpen(true);
+  const closeModal = () => setModalIsOpen(false);
 
   const currentAssign = keyAssignments[key_name] || {};
 
-  // Determine what to display based on the current mode
-  let displayLabel = key_name; // Default display
+  const getModifiersString = (modifiers) => {
+    const modArray = [];
+    if (modifiers.Win) modArray.push('Win');
+    if (modifiers.Ctrl) modArray.push('Ctrl');
+    if (modifiers.Alt) modArray.push('Alt');
+    if (modifiers.Shift) modArray.push('Shift');
+    return modArray.join('+');
+  };
 
-  switch (mode) {
-    case 'default':
-      displayLabel = key_name;
-      break;
-    case 'pretty':
-      displayLabel = currentAssign.pretty
-        ? currentAssign.pretty.join(', ')
-        : key_name;
-      break;
-    case 'subst':
-      displayLabel = currentAssign.subst || '';
-      break;
-    case 'modifiers':
-      const modifiers = [];
-      if (currentAssign.modifiers?.Win) modifiers.push('Win');
-      if (currentAssign.modifiers?.Ctrl) modifiers.push('Ctrl');
-      if (currentAssign.modifiers?.Alt) modifiers.push('Alt');
-      if (currentAssign.modifiers?.Shift) modifiers.push('Shift');
-      if (currentAssign.modifiers?.mod >= 0) modifiers.push(`mod${currentAssign.modifiers.mod}`);
-      displayLabel = modifiers.length > 0 ? modifiers.join('+') : '';
-      break;
-    default:
-      if (mode.startsWith('mod')) {
-        const modNumber = mode.replace('mod', '');
-        const modKey = currentAssign[`mod${modNumber}key`];
-        displayLabel = modKey || '';
-      }
-      break;
-  }
+  const getDisplayLabel = () => {
+    switch (mode) {
+      case 'default':
+        return key_name;
+      case 'pretty':
+        return currentAssign.pretty ? currentAssign.pretty.join(', ') : key_name;
+      case 'subst':
+        return currentAssign.subst || '';
+      case 'modifiers':
+        const mainModifiers = getModifiersString(currentAssign.modifiers || {});
+        const modValue = currentAssign.modifiers?.mod >= 0 ? `mod${currentAssign.modifiers.mod}` : '';
+        return [mainModifiers, modValue].filter(Boolean).join('+') || '';
+      default:
+        if (mode.startsWith('mod')) {
+          const modNumber = mode.replace('mod', '');
+          const modKey = currentAssign[`mod${modNumber}key`];
+          if (modKey && modKey.key_name) {
+            const modifiers = getModifiersString(modKey.modifiers);
+            return modifiers ? `${modifiers}+${modKey.key_name}` : modKey.key_name;
+          }
+          return '';
+        }
+        return '';
+    }
+  };
+
+  const displayLabel = getDisplayLabel();
 
   // Determine CSS class based on mode
-  let modeClass = 'default';
-
-  if (mode === 'pretty') {
-    modeClass = 'pretty';
-  } else if (mode === 'subst') {
-    modeClass = 'subst';
-  } else if (mode === 'modifiers') {
-    modeClass = 'modifiers';
-  } else if (mode.startsWith('mod')) {
-    modeClass = `mod${mode.replace('mod', '')}`;
-  }
+  const modeClass = mode === 'pretty' ? 'pretty' :
+                    mode === 'subst' ? 'subst' :
+                    mode === 'modifiers' ? 'modifiers' :
+                    mode.startsWith('mod') ? `mod${mode.replace('mod', '')}` :
+                    'default';
 
   return (
     <>
