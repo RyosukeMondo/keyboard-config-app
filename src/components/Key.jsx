@@ -30,7 +30,7 @@ const Key = ({ key_name, width, height }) => {
         : key_name;
       break;
     case 'subst':
-      displayLabel = currentAssign.subst || key_name;
+      displayLabel = currentAssign.subst || '';
       break;
     case 'modifiers':
       const modifiers = [];
@@ -38,13 +38,14 @@ const Key = ({ key_name, width, height }) => {
       if (currentAssign.modifiers?.Ctrl) modifiers.push('Ctrl');
       if (currentAssign.modifiers?.Alt) modifiers.push('Alt');
       if (currentAssign.modifiers?.Shift) modifiers.push('Shift');
-      displayLabel = modifiers.length > 0 ? modifiers.join('+') : key_name;
+      if (currentAssign.modifiers?.mod >= 0) modifiers.push(`mod${currentAssign.modifiers.mod}`);
+      displayLabel = modifiers.length > 0 ? modifiers.join('+') : '';
       break;
     default:
       if (mode.startsWith('mod')) {
         const modNumber = mode.replace('mod', '');
         const modKey = currentAssign[`mod${modNumber}key`];
-        displayLabel = modKey || key_name;
+        displayLabel = modKey || '';
       }
       break;
   }
