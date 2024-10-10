@@ -3,6 +3,7 @@ import Keyboard from './components/Keyboard';
 import ModeSelector from './components/ModeSelector';
 import Preview from './components/Preview';
 import './App.css';
+import Uploader from './components/Uploader';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ModeSelector />
       <Keyboard />
       <Preview />
+      <Uploader />
     </div>
   );
 }

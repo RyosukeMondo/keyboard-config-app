@@ -111,15 +111,23 @@ let keyConfig = [
     { key_name: 'Convert', width: width_mid, height: height_max },
     { key_name: 'RCtrl', width: width_arrow, height: height_max },
     { key_name: '', width: width_mid, height: height_max },
-    { key_name: '↑', width: width_arrow, height: height_max },
+    { key_name: 'Up', width: width_arrow, height: height_max },
     { key_name: '', width: width_arrow, height: height_max },
   ],
   // Last row
   [
-    { key_name: '', width: 16.9, height: height_max },
-    { key_name: '←', width: width_arrow, height: height_max },
-    { key_name: '↓', width: width_arrow, height: height_max },
-    { key_name: '→', width: width_arrow, height: height_max },
+    { key_name: '', width: 6.1, height: height_max },
+    { key_name: 'Insert', width: width_arrow, height: height_max },
+    { key_name: 'Apps', width: width_arrow, height: height_max },
+    { key_name: 'Down', width: width_arrow, height: height_max },
+    { key_name: 'Sleep', width: width_arrow, height: height_max },
+    { key_name: 'End', width: width_arrow, height: height_max },
+    { key_name: 'Home', width: width_arrow, height: height_max },
+    { key_name: 'PageUp', width: width_arrow, height: height_max },
+    { key_name: 'PageDown', width: width_arrow, height: height_max },
+    { key_name: 'Left', width: width_arrow, height: height_max },
+    { key_name: 'Down', width: width_arrow, height: height_max },
+    { key_name: 'Right', width: width_arrow, height: height_max },
   ]
 ];
 
