@@ -116,10 +116,9 @@ let keyConfig = [
   ],
   // Last row
   [
-    { key_name: '', width: 6.1, height: height_max },
+    { key_name: '', width: 7.4, height: height_max },
     { key_name: 'Insert', width: width_arrow, height: height_max },
     { key_name: 'Apps', width: width_arrow, height: height_max },
-    { key_name: 'Down', width: width_arrow, height: height_max },
     { key_name: 'Sleep', width: width_arrow, height: height_max },
     { key_name: 'End', width: width_arrow, height: height_max },
     { key_name: 'Home', width: width_arrow, height: height_max },
