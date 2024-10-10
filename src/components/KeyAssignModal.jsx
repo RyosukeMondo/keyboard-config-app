@@ -4,7 +4,6 @@ import { KeyAssignContext } from '../context/KeyAssignContext';
 import './KeyAssignModal.css';
 import { key_names } from '../data/key_names';
 
-
 Modal.setAppElement('#root'); // Accessibility
 
 const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
@@ -128,6 +127,20 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
               {mod}
             </label>
           ))}
+          <div className="form-group">
+            <label>Mod Value:</label>
+            <select
+              name="modifiers.mod"
+              value={formData.modifiers.mod}
+              onChange={handleChange}
+            >
+              {Array.from({ length: 11 }, (_, i) => i - 1).map((value) => (
+                <option key={value} value={value}>
+                  {value}
+                </option>
+              ))}
+            </select>
+          </div>
         </fieldset>
         {Array.from({ length: 10 }, (_, i) => (
           <div key={`mod${i}key`} className="form-group">
