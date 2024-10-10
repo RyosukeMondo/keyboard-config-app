@@ -2,6 +2,8 @@ import React, { useContext, useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import { KeyAssignContext } from '../context/KeyAssignContext';
 import './KeyAssignModal.css';
+import { key_names } from '../data/key_names';
+
 
 Modal.setAppElement('#root'); // Accessibility
 
@@ -16,16 +18,7 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
       Ctrl: false,
       Alt: false,
       Shift: false,
-      mod0: 0,
-      mod1: 0,
-      mod2: 0,
-      mod3: 0,
-      mod4: 0,
-      mod5: 0,
-      mod6: 0,
-      mod7: 0,
-      mod8: 0,
-      mod9: 0,
+      mod: -1,
     },
     mod0key: '',
     mod1key: '',
@@ -64,9 +57,9 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
         [name]:
           type === 'checkbox'
             ? checked
-            : name.startsWith('mod') && name.endsWith('key')
-            ? value
-            : value.split(',').map((item) => item.trim()),
+            : name === 'pretty'
+            ? value.split(',').map((item) => item.trim())
+            : value,
       }));
     }
   };
@@ -93,22 +86,23 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
             type="text"
             name="pretty"
             value={formData.pretty.join(', ')}
-            onChange={(e) =>
-              setFormData({
-                ...formData,
-                pretty: e.target.value.split(',').map((item) => item.trim()),
-              })
-            }
+            onChange={handleChange}
           />
         </div>
         <div className="form-group">
           <label>Substitute Key Name:</label>
-          <input
-            type="text"
+          <select
             name="subst"
-            value={formData.subst || ''}
+            value={formData.subst}
             onChange={handleChange}
-          />
+          >
+            <option value="">Select a key</option>
+            {key_names.map((key) => (
+              <option key={key} value={key}>
+                {key}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="form-group checkbox-group">
           <label>
@@ -134,29 +128,22 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
               {mod}
             </label>
           ))}
-          {Array.from({ length: 10 }, (_, i) => (
-            <div key={`mod${i}`} className="modifier-group">
-              <label>mod{i}:</label>
-              <input
-                type="number"
-                name={`modifiers.mod${i}`}
-                value={formData.modifiers[`mod${i}`]}
-                onChange={handleChange}
-                min="0"
-                max="9"
-              />
-            </div>
-          ))}
         </fieldset>
         {Array.from({ length: 10 }, (_, i) => (
           <div key={`mod${i}key`} className="form-group">
             <label>mod{i} Key Name:</label>
-            <input
-              type="text"
+            <select
               name={`mod${i}key`}
-              value={formData[`mod${i}key`] || ''}
+              value={formData[`mod${i}key`]}
               onChange={handleChange}
-            />
+            >
+              <option value="">Select a key</option>
+              {key_names.map((key) => (
+                <option key={key} value={key}>
+                  {key}
+                </option>
+              ))}
+            </select>
           </div>
         ))}
         <div className="modal-actions">
