@@ -1,0 +1,5 @@
+monitor_file: "C:\\Users\\ryosu\\Downloads\\key_assignments.txt"
+destination: "C:\\Users\\ryosu\\yamy\\config.nodoka"
+log: "D:\\repos\\keyboard-config\\tmp\\log.txt"
+log_level: "DEBUG"  # Options: DEBUG, INFO, WARN, ERROR
+ps_script: "D:\\repos\\keyboard-config\\folder_observer\\manage_process.ps1"
