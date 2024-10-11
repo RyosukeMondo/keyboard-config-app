@@ -1,7 +1,12 @@
 import React, { useContext, useState } from 'react';
 import { KeyAssignContext } from '../context/KeyAssignContext';
+import useTextOutput from '../hooks/useTextOutput'; // Import the custom hook
 import './Preview.css';
 
+/**
+ * Preview Component
+ * Path: D:/repos/keyboard-config/keyboard-config-app/src/components/Preview.jsx
+ */
 const Preview = () => {
   const { keyAssignments } = useContext(KeyAssignContext);
   const [viewMode, setViewMode] = useState('json'); // 'json' or 'text'
@@ -10,13 +15,16 @@ const Preview = () => {
     setViewMode(mode);
   };
 
-  // Function to convert keyAssignments to readable text
+  // Use the custom hook to get formatted text
+  const textOutput = useTextOutput(keyAssignments);
+
+  // Function to render the text preview
   const renderTextPreview = () => {
-    return Object.entries(keyAssignments).map(([key, assignment]) => (
-      <div key={key} className="preview-item">
-        <strong>{key}:</strong> {JSON.stringify(assignment, null, 2)}
-      </div>
-    ));
+    return (
+      <pre className="text-preview">
+        {textOutput}
+      </pre>
+    );
   };
 
   return (

@@ -7,7 +7,7 @@ def parse_and_update_json(input_txt, key_names, input_key_name_group, input_key_
 
     Args:
         input_txt (str): Path to the input text file.
-        key_names (list): List of valid key names.
+        key_names (list): List of valid key namese
         input_key_name_group (str): Path to the input JSON file containing key name groups.
         input_key_assignment (str): Path to the input JSON file containing key assignments.
     """
@@ -105,7 +105,7 @@ def parse_and_update_json(input_txt, key_names, input_key_name_group, input_key_
             key_assignment = key_assignments[actual_key]
 
             # Reset mod keys before updating
-            print(f"Resetting mod keys for {actual_key} for {line}")
+            # print(f"Resetting mod keys for {actual_key} for {line}")
             mod_key_name = f"mod{mod_index}key"
             key_assignment[mod_key_name]["key_name"] = None
             key_assignment[mod_key_name]["modifiers"] = {

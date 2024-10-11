@@ -22,11 +22,14 @@
   border: none;
 }
 
+/* align left */
 .preview-content {
-  max-height: 400px;
+  max-height: 200px;
   overflow: auto;
+  align-content: left;
   background-color: #f9f9f9;
   padding: 10px;
+  text-align: left;
 }
 
 .preview-item {
