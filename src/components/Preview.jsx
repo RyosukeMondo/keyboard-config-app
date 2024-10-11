@@ -1,56 +1,71 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useCallback } from 'react';
 import { KeyAssignContext } from '../context/KeyAssignContext';
-import useTextOutput from '../hooks/useTextOutput'; // Import the custom hook
+import useTextOutput from '../hooks/useTextOutput';
+import { Button } from './ui/button';
+import { Clipboard, Download } from 'lucide-react';
 import './Preview.css';
 
-/**
- * Preview Component
- * Path: D:/repos/keyboard-config/keyboard-config-app/src/components/Preview.jsx
- */
 const Preview = () => {
   const { keyAssignments } = useContext(KeyAssignContext);
-  const [viewMode, setViewMode] = useState('json'); // 'json' or 'text'
+  const [viewMode, setViewMode] = useState('json');
+  const textOutput = useTextOutput(keyAssignments);
 
   const handleViewChange = (mode) => {
     setViewMode(mode);
   };
 
-  // Use the custom hook to get formatted text
-  const textOutput = useTextOutput(keyAssignments);
+  const getContent = useCallback(() => {
+    return viewMode === 'json' 
+      ? JSON.stringify(keyAssignments, null, 2) 
+      : textOutput;
+  }, [viewMode, keyAssignments, textOutput]);
 
-  // Function to render the text preview
-  const renderTextPreview = () => {
-    return (
-      <pre className="text-preview">
-        {textOutput}
-      </pre>
-    );
+  const copyToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(getContent());
+      alert('Copied to clipboard!');
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  };
+
+  const downloadContent = () => {
+    const element = document.createElement('a');
+    const file = new Blob([getContent()], {type: 'text/plain'});
+    element.href = URL.createObjectURL(file);
+    element.download = `key_assignments.${viewMode === 'json' ? 'json' : 'txt'}`;
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
   };
 
   return (
     <div className="preview-container">
       <h2>Key Assignments Preview</h2>
       <div className="view-switcher">
-        <button
+        <Button
           onClick={() => handleViewChange('json')}
-          className={viewMode === 'json' ? 'active' : ''}
+          variant={viewMode === 'json' ? 'default' : 'outline'}
         >
           JSON Preview
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={() => handleViewChange('text')}
-          className={viewMode === 'text' ? 'active' : ''}
+          variant={viewMode === 'text' ? 'default' : 'outline'}
         >
           Text Preview
-        </button>
-        {/* Add more buttons here for additional previews */}
+        </Button>
       </div>
       <div className="preview-content">
-        {viewMode === 'json' && (
-          <pre>{JSON.stringify(keyAssignments, null, 2)}</pre>
-        )}
-        {viewMode === 'text' && renderTextPreview()}
-        {/* Render additional previews based on viewMode */}
+        <pre>{getContent()}</pre>
+      </div>
+      <div className="action-buttons">
+        <Button onClick={copyToClipboard} className="mr-2">
+          <Clipboard className="mr-2 h-4 w-4" /> Copy to Clipboard
+        </Button>
+        <Button onClick={downloadContent}>
+          <Download className="mr-2 h-4 w-4" /> Download
+        </Button>
       </div>
     </div>
   );

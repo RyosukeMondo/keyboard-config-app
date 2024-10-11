@@ -17,6 +17,9 @@ const useTextOutput = (keyAssignments) => {
     }
 
     Object.entries(keyAssignments).forEach(([key, assignment]) => {
+      if(key === 'FN'){
+        return;
+      }
       // #subst section
       const sec_text = `def subst *${key} = *${assignment.subst}`;
       const space_count = 50 - sec_text.length;
@@ -30,17 +33,28 @@ const useTextOutput = (keyAssignments) => {
         .map(([mod]) => mod);
      
       activeMods.forEach((mod) => {
-        const sec_text = `mod ${mod} += ${assignment.subst}`;
+        const mod_keys = ["Alt", "Ctrl", "Shift", "Win"];
+        mod_keys.forEach((mod_key) => {
+          if(key.includes(mod_key)){
+            if(mod_key === "Win"){
+              modSection += `mod Windows -= ${key}\n`;
+            } else {
+              modSection += `mod ${mod_key} -= ${key}\n`;
+            }
+          }
+        });
+        const sec_text = `mod ${mod} += ${key}`;
         const space_count = 50 - sec_text.length;
-        modSection += `${sec_text}${' '.repeat(space_count)}# <- ${key}\n`;
+        modSection += `${sec_text}${' '.repeat(space_count)}# <- ${assignment.subst}\n`;
       });
 
       // check if mod is not undefined
-      if(modifiers.mod && modifiers.mod !== -1 ) {
+      if(modifiers.mod !== -1 && modifiers.mod !== undefined) {
+        console.log(modifiers.mod);
         if (is_one_shot) {
-          modSection += `mod mod${modifiers.mod} = !!${assignment.subst}\n`;
+          modSection += `mod mod${modifiers.mod} = !!${key}\n`;
         } else {
-          modSection += `mod mod${modifiers.mod} = ${assignment.subst}\n`;
+          modSection += `mod mod${modifiers.mod} = ${key}\n`;
         }
       }
 
@@ -48,15 +62,7 @@ const useTextOutput = (keyAssignments) => {
       for (let i = 0; i <= 9; i++) {
         const modKey = assignment[`mod${i}key`];
         if (modKey && modKey.key_name) {
-          // Construct the key combination string
-          const modifiersList = Object.entries(modKey.modifiers)
-            .filter(([mod, isActive]) => isActive)
-            .map(([mod]) => mod)
-            .join('-');
-
           const keyCombination = `*${assignment.subst}`;
-          //modifiersList 
-          //  ? `*${key}-*${modifiersList}-${assignment.subst}` 
           const key_part = modKey.key_name;
           // construct the modKey_part with combining with "-" with each modifier
           const modkey_part = Object.entries(modKey.modifiers)
