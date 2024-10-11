@@ -4,6 +4,7 @@ import ModeSelector from './components/ModeSelector';
 import Preview from './components/Preview';
 import './App.css';
 import Uploader from './components/Uploader';
+import Explain from './components/Explain';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Keyboard />
       <Preview />
       <Uploader />
+      <Explain />
     </div>
   );
 }

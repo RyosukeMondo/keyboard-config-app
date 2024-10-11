@@ -1,0 +1,6 @@
+include "109.nodoka"
+include "key_seq.nodoka"
+
+include "config.nodoka"
+include "hm.nodoka"
+include "dvorakY.nodoka"
