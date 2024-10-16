@@ -22,3 +22,4 @@ key s-Atmark    = $tilde
 key s-semicolon = colon
 mod Ctrl -= LCtrl
 mod Windows -= LWindows
+mod Shift -= E0RightShift
