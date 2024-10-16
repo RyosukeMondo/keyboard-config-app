@@ -56,10 +56,12 @@ const Key = ({ key_name, width, height }) => {
                     mode.startsWith('mod') ? `mod${mode.replace('mod', '')}` :
                     'default';
 
+  const additionalClass = key_name === '' ? 'black' : '';
+
   return (
     <>
       <div
-        className={`key ${modeClass}`}
+        className={`key ${modeClass} ${additionalClass}`}
         style={{ width: `${width * 40}px`, height: `${height * 40}px` }}
         onClick={openModal}
       >

@@ -56,6 +56,13 @@
   background-image: linear-gradient(135deg, #756c1d, #514f12);
 }
 
+/* New class to set background color to black when key_name is empty */
+.key.black {
+  background-color: #000000 !important;
+  background-image: none !important;
+  color: #ffffff; /* Optional: Change text color for better contrast */
+}
+
 @keyframes keyPress {
   0% { transform: scale(1); }
   50% { transform: scale(0.95); }
