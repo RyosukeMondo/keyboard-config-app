@@ -2945,7 +2945,7 @@
       "F8"
     ],
     "subst": "BS",
-    "is_one_shot": false,
+    "is_one_shot": true,
     "modifiers": {
       "Win": false,
       "Ctrl": false,
@@ -3049,7 +3049,7 @@
       "F9"
     ],
     "subst": "Space",
-    "is_one_shot": false,
+    "is_one_shot": true,
     "modifiers": {
       "Win": false,
       "Ctrl": false,
