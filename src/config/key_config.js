@@ -112,7 +112,7 @@ let keyConfig = [
     { key_name: 'RCtrl', width: width_arrow, height: height_max },
     { key_name: '', width: width_mid, height: height_max },
     { key_name: 'Up', width: width_arrow, height: height_max },
-    { key_name: '', width: width_arrow, height: height_max },
+    { key_name: 'E0RightShift', width: width_arrow, height: height_max },
   ],
   // Last row
   [

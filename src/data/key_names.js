@@ -184,6 +184,7 @@ export const key_names = [
   "RCtrl",
   "RightShift",
   "RShift",
+  "E0RightShift",
   "RightSquareBracket",
   "CloseBracket",
   "RightWindows",
