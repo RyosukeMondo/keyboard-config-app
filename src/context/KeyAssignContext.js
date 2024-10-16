@@ -1,5 +1,3 @@
-// src/context/KeyAssignContext.js
-
 import React, { createContext, useState, useEffect } from 'react';
 import defaultKeyAssignments from '../data/key_assignments';
 
@@ -8,6 +6,7 @@ export const KeyAssignContext = createContext();
 export const KeyAssignProvider = ({ children }) => {
   const [keyAssignments, setKeyAssignments] = useState({});
   const [mode, setMode] = useState('default'); // Modes: default, pretty, subst, modifiers, mod0 ~ mod9
+  const [isUpsideDown, setIsUpsideDown] = useState(false); // New state for upside-down toggle
 
   // Load from localStorage or initialize with defaults
   useEffect(() => {
@@ -22,6 +21,11 @@ export const KeyAssignProvider = ({ children }) => {
     if (storedMode) {
       setMode(storedMode);
     }
+
+    const storedUpsideDown = localStorage.getItem('isUpsideDown');
+    if (storedUpsideDown) {
+      setIsUpsideDown(JSON.parse(storedUpsideDown));
+    }
   }, []);
 
   // Persist keyAssignments to localStorage whenever they change
@@ -33,6 +37,11 @@ export const KeyAssignProvider = ({ children }) => {
   useEffect(() => {
     localStorage.setItem('currentMode', mode);
   }, [mode]);
+
+  // Persist isUpsideDown to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('isUpsideDown', JSON.stringify(isUpsideDown));
+  }, [isUpsideDown]);
 
   // CRUD operations
   const createKeyAssign = (key_name, data) => {
@@ -60,6 +69,10 @@ export const KeyAssignProvider = ({ children }) => {
     });
   };
 
+  const toggleUpsideDown = () => {
+    setIsUpsideDown((prev) => !prev);
+  };
+
   return (
     <KeyAssignContext.Provider
       value={{
@@ -67,6 +80,8 @@ export const KeyAssignProvider = ({ children }) => {
         setKeyAssignments,
         mode,
         setMode,
+        isUpsideDown,
+        toggleUpsideDown,
         createKeyAssign,
         updateKeyAssign,
         deleteKeyAssign,

@@ -8,14 +8,14 @@ import Explain from './components/Explain';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Keyboard Configuration App</h1>
-      <ModeSelector />
-      <Keyboard />
-      <Preview />
-      <Uploader />
-      <Explain />
-    </div>
+      <div className="App">
+        <h1>Keyboard Configuration App</h1>
+        <ModeSelector />
+        <Keyboard />
+        <Preview />
+        <Uploader />
+        <Explain />
+      </div>
   );
 }
 

@@ -20,22 +20,33 @@ const modes = [
 ];
 
 const ModeSelector = () => {
-  const { mode, setMode } = useContext(KeyAssignContext);
+  const { mode, setMode, isUpsideDown, toggleUpsideDown } = useContext(KeyAssignContext);
 
-  const handleChange = (e) => {
+  const handleModeChange = (e) => {
     setMode(e.target.value);
   };
 
   return (
     <div className="mode-selector">
-      <label htmlFor="mode-select">Select Mode: </label>
-      <select id="mode-select" value={mode} onChange={handleChange}>
+      <label htmlFor="mode">Select Mode: </label>
+      <select id="mode" value={mode} onChange={handleModeChange}>
         {modes.map((m) => (
           <option key={m} value={m}>
             {m.charAt(0).toUpperCase() + m.slice(1)}
           </option>
         ))}
       </select>
+
+      {/* Upside-Down Toggle */}
+      <div className="toggle-container">
+        <label htmlFor="upsideDownToggle">Upside Down:</label>
+        <input
+          type="checkbox"
+          id="upsideDownToggle"
+          checked={isUpsideDown}
+          onChange={toggleUpsideDown}
+        />
+      </div>
     </div>
   );
 };
