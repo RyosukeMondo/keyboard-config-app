@@ -1,0 +1,9717 @@
+{
+  "Del": {
+    "key_name": "A",
+    "pretty": [
+      "A"
+    ],
+    "subst": "Tab",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F11",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F11",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "A": {
+    "pretty": [
+      "Y"
+    ],
+    "subst": "I",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_5",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "D",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$LEFT_PARENTHESIS",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$RIGHT_PARENTHESIS",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Apps",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod5key": {
+      "key_name": "_6",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "W",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Kanji": {
+    "pretty": [
+      "半角"
+    ],
+    "subst": "Kanji",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod0": 0,
+      "mod1": 0,
+      "mod2": 0,
+      "mod3": 0,
+      "mod4": 0,
+      "mod5": 0,
+      "mod6": 0,
+      "mod7": 0,
+      "mod8": 0,
+      "mod9": 0
+    },
+    "mod0key": {
+      "key_name": "Enter",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_1": {
+    "pretty": [
+      "Shift"
+    ],
+    "subst": "LShift",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": true,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_2": {
+    "pretty": [
+      "＼"
+    ],
+    "subst": "Enter",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 0
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_3": {
+    "pretty": [
+      "／"
+    ],
+    "subst": "BS",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 1
+    },
+    "mod0key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "B": {
+    "pretty": [
+      "2"
+    ],
+    "subst": "Colon",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod0": 0,
+      "mod1": 0,
+      "mod2": 0,
+      "mod3": 0,
+      "mod4": 0,
+      "mod5": 0,
+      "mod6": 0,
+      "mod7": 0,
+      "mod8": 0,
+      "mod9": 0
+    },
+    "mod0key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "L",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Slash",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Z",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "PageUp",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod9key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    }
+  },
+  "F4": {
+    "pretty": [
+      "F11"
+    ],
+    "subst": "LWin",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "V": {
+    "pretty": [
+      "3"
+    ],
+    "subst": "Comma",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod0": 0,
+      "mod1": 0,
+      "mod2": 0,
+      "mod3": 0,
+      "mod4": 0,
+      "mod5": 0,
+      "mod6": 0,
+      "mod7": 0,
+      "mod8": 0,
+      "mod9": 0
+    },
+    "mod0key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "R",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$NUMBER_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "X",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "PageDown",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod9key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    }
+  },
+  "R": {
+    "pretty": [
+      "D"
+    ],
+    "subst": "Q",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F2",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "V",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "Slash",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$EQUALS_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "F",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    }
+  },
+  "Snapshot": {
+    "pretty": [
+      "PSc"
+    ],
+    "subst": "_8",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Scroll": {
+    "pretty": [
+      "F7"
+    ],
+    "subst": "Atmark",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "NumLock": {
+    "pretty": [
+      "Numl"
+    ],
+    "subst": "NumLock",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Minus": {
+    "pretty": [
+      "",
+      ""
+    ],
+    "subst": "F9",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    }
+  },
+  "Caret": {
+    "pretty": [
+      "M"
+    ],
+    "subst": "BS",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 2
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Atmark": {
+    "pretty": [
+      "K"
+    ],
+    "subst": "M",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F7",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "M",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$ASTERISK",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    }
+  },
+  "OpenBracket": {
+    "pretty": [
+      "J"
+    ],
+    "subst": "B",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F6",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "B",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$TILDE",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    }
+  },
+  "Semicolon": {
+    "pretty": [
+      "O"
+    ],
+    "subst": "T",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_8",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "T",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$RIGHT_SQUARE_BRACKET",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": true
+      }
+    }
+  },
+  "Colon": {
+    "pretty": [
+      "I"
+    ],
+    "subst": "H",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_7",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "H",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$LEFT_SQUARE_BRACKET",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "CloseBracket": {
+    "pretty": [
+      "U"
+    ],
+    "subst": "D",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_6",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "D",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$RIGHT_PARENTHESIS",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": true
+      }
+    }
+  },
+  "Comma": {
+    "pretty": [
+      "--"
+    ],
+    "subst": "L",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "B",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod1key": {
+      "key_name": "L",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F12",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Period": {
+    "pretty": [
+      "0"
+    ],
+    "subst": "R",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "A",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod1key": {
+      "key_name": "R",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Slash": {
+    "pretty": [
+      "9"
+    ],
+    "subst": "C",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "End",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "C",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$VERTICAL_LINE",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "ReverseSolidus": {
+    "pretty": [
+      "8"
+    ],
+    "subst": "G",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Home",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "G",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$AMPERSAND",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "NonConvert": {
+    "pretty": [
+      "無変換"
+    ],
+    "subst": "LAlt",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": true,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Tab",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Tab",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Hiragana": {
+    "pretty": [
+      "変換"
+    ],
+    "subst": "RControl",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Convert": {
+    "pretty": [
+      "平仮名"
+    ],
+    "subst": "RAlt",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Esc": {
+    "pretty": [
+      "Esc"
+    ],
+    "subst": "_5",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F1": {
+    "pretty": [
+      "F8"
+    ],
+    "subst": "BS",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 7
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F2": {
+    "pretty": [
+      "F9"
+    ],
+    "subst": "Space",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 5
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F3": {
+    "pretty": [
+      "F10"
+    ],
+    "subst": "Esc",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 3
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F5": {
+    "pretty": [
+      "F12"
+    ],
+    "subst": "Tab",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "R",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F11",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F6": {
+    "pretty": [
+      "F6"
+    ],
+    "subst": "Del",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F7": {
+    "pretty": [
+      "Scr"
+    ],
+    "subst": "Scroll",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F8": {
+    "pretty": [
+      "F1"
+    ],
+    "subst": "LWin",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F9": {
+    "pretty": [
+      "F2"
+    ],
+    "subst": "Esc",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Esc",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod5key": {
+      "key_name": "F3",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "F2",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F10": {
+    "pretty": [
+      "F3"
+    ],
+    "subst": "LCtrl",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F11": {
+    "pretty": [
+      "F4"
+    ],
+    "subst": "LAlt",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Tab",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "K",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F5",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "F4",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "F12": {
+    "pretty": [
+      "F5"
+    ],
+    "subst": "BS",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Enter",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_4": {
+    "pretty": [
+      "C"
+    ],
+    "subst": "Del",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 6
+    },
+    "mod0key": {
+      "key_name": "W",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod6key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_5": {
+    "pretty": [
+      "X"
+    ],
+    "subst": "_3",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_6": {
+    "pretty": [
+      "Z"
+    ],
+    "subst": "Z",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F10",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Z",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "ReverseSolidus",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    }
+  },
+  "_7": {
+    "pretty": [
+      "N"
+    ],
+    "subst": "LShift",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$LESS-THAN_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_8": {
+    "pretty": [
+      "B"
+    ],
+    "subst": "Enter",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$TILDE",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_9": {
+    "pretty": [
+      "V"
+    ],
+    "subst": "BS",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "_0": {
+    "pretty": [
+      "",
+      ""
+    ],
+    "subst": "F10",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    }
+  },
+  "Yen": {
+    "pretty": [
+      "Yen"
+    ],
+    "subst": "LShift",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": true,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "S",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "BS": {
+    "pretty": [
+      "BS"
+    ],
+    "subst": "Del",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Tab": {
+    "pretty": [
+      "Tab"
+    ],
+    "subst": "Space",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F12",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Q": {
+    "pretty": [
+      "H"
+    ],
+    "subst": "X",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F5",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "B",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$GRAVE_ACCENT",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$TILDE",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "B",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod5key": {
+      "key_name": "F6",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "W": {
+    "pretty": [
+      "G"
+    ],
+    "subst": "K",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F4",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "M",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$EXCLAMATION_MARK",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$ASTERISK",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Space",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F7",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    }
+  },
+  "E": {
+    "pretty": [
+      "F"
+    ],
+    "subst": "J",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F3",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "W",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$CIRCUMFLEX_ACCENT",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$PLUS_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "J",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F8",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    }
+  },
+  "T": {
+    "pretty": [
+      "S"
+    ],
+    "subst": "Semicolon",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F1",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Z",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$QUESTION_MARK",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "ReverseSolidus",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "A",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F10",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    }
+  },
+  "Y": {
+    "key_name": "A",
+    "pretty": [
+      "dov"
+    ],
+    "subst": "_4",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 9
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "U": {
+    "pretty": [
+      "]"
+    ],
+    "subst": "Yen",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "I": {
+    "pretty": [
+      ":"
+    ],
+    "subst": "Z",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F10",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "O": {
+    "pretty": [
+      ";"
+    ],
+    "subst": "V",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "V",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$EQUALS_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    }
+  },
+  "P": {
+    "pretty": [
+      "L"
+    ],
+    "subst": "W",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F8",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "W",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$PLUS_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Enter": {
+    "pretty": [
+      "Enter"
+    ],
+    "subst": "Enter",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F11",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Yen",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Eisuu": {
+    "pretty": [
+      "英数"
+    ],
+    "subst": "Eisuu",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "F11",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "S": {
+    "pretty": [
+      "T"
+    ],
+    "subst": "U",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_4",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "H",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$RIGHT_CURLY_BRACKET",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$LEFT_SQUARE_BRACKET",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Kanji",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "_7",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "End",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod9key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": true
+      }
+    }
+  },
+  "D": {
+    "pretty": [
+      "R"
+    ],
+    "subst": "E",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_3",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "T",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$LEFT_CURLY_BRACKET",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$RIGHT_SQUARE_BRACKET",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "W",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "_8",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Home",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod9key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod0key.key_name": "A",
+    "mod9key.key_name": "ACBack"
+  },
+  "F": {
+    "pretty": [
+      "E"
+    ],
+    "subst": "O",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_2",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "N",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$RIGHT_PARENTHESIS",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$LESS-THAN_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "X",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "_9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "End",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": true
+      }
+    }
+  },
+  "G": {
+    "pretty": [
+      "W"
+    ],
+    "subst": "A",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_1",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "S",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$LEFT_PARENTHESIS",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$GREATER-THAN_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "G",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "_0",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Home",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": true
+      }
+    }
+  },
+  "H": {
+    "pretty": [
+      "Q"
+    ],
+    "subst": "Minus",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": 8
+    },
+    "mod0key": {
+      "key_name": "F12",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Minus",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$RIGHT_SQUARE_BRACKET",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Minus",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F12",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    }
+  },
+  "J": {
+    "pretty": [
+      "["
+    ],
+    "subst": "Minus",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "K": {
+    "pretty": [
+      "@"
+    ],
+    "subst": "S",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_0",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "S",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$GREATER-THAN_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "L": {
+    "pretty": [
+      "P"
+    ],
+    "subst": "N",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "_9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "N",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "$LESS-THAN_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    }
+  },
+  "LShift": {
+    "pretty": [
+      "Shift"
+    ],
+    "subst": "LShift",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Z": {
+    "pretty": [
+      "6"
+    ],
+    "subst": "Y",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Enter",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "F",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$AMPERSAND",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Y",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "Tab",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "F4",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "X": {
+    "pretty": [
+      "5"
+    ],
+    "subst": "P",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "G",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$PERCENT_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "$VERTICAL_LINE",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "V",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod6key": {
+      "key_name": "Tab",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "F3",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Up",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    }
+  },
+  "C": {
+    "pretty": [
+      "4"
+    ],
+    "subst": "Period",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "C",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "$DOLLAR_SIGN",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "C",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F9",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "Tab",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "F3",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod9key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": true
+      }
+    }
+  },
+  "N": {
+    "pretty": [
+      "1"
+    ],
+    "subst": "LShift",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod0": 0,
+      "mod1": 0,
+      "mod2": 0,
+      "mod3": 0,
+      "mod4": 0,
+      "mod5": 0,
+      "mod6": 0,
+      "mod7": 0,
+      "mod8": 0,
+      "mod9": 0,
+      "mod": 4
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "M": {
+    "pretty": [
+      "^"
+    ],
+    "subst": "Slash",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Slash",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "RShift": {
+    "pretty": [
+      "7"
+    ],
+    "subst": "RShift",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "F",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "FN": {
+    "pretty": [
+      "FN"
+    ],
+    "subst": "",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "LCtrl": {
+    "pretty": [
+      "Ctrl"
+    ],
+    "subst": "Space",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "LWin": {
+    "pretty": [
+      "Win"
+    ],
+    "subst": "LWin",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": true,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Esc",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "Left",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "F1",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "LAlt": {
+    "pretty": [
+      "Alt"
+    ],
+    "subst": "BS",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Tab",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod1key": {
+      "key_name": "Down",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": true
+      }
+    },
+    "mod2key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "F4",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "F3",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "Right",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": true,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Space": {
+    "pretty": [
+      "Space"
+    ],
+    "subst": "LCtrl",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "Esc",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": true,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "Esc",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": null,
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "Atmark",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Up": {
+    "pretty": [
+      "↑"
+    ],
+    "subst": "Down",
+    "is_one_shot": true,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Down": {
+    "pretty": [
+      "↓"
+    ],
+    "subst": "Up",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Left": {
+    "pretty": [
+      "←"
+    ],
+    "subst": "Right",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Right": {
+    "pretty": [
+      "→"
+    ],
+    "subst": "Left",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Insert": {
+    "pretty": [
+      "Insert"
+    ],
+    "subst": "Insert",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Apps": {
+    "pretty": [
+      "Apps"
+    ],
+    "subst": "Apps",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Sleep": {
+    "pretty": [
+      "Sleep"
+    ],
+    "subst": "Sleep",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "End": {
+    "pretty": [
+      "End"
+    ],
+    "subst": "End",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "Home": {
+    "pretty": [
+      "Home"
+    ],
+    "subst": "Home",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "PageUp": {
+    "pretty": [
+      "PageUp"
+    ],
+    "subst": "PageUp",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "PageDown": {
+    "pretty": [
+      "PageDown"
+    ],
+    "subst": "PageDown",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "RCtrl": {
+    "pretty": [
+      "Ctrl"
+    ],
+    "subst": "RCtrl",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  },
+  "E0RightShift": {
+    "pretty": [
+      "F"
+    ],
+    "subst": "F",
+    "is_one_shot": false,
+    "modifiers": {
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false,
+      "mod": -1
+    },
+    "mod0key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod1key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod2key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod3key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod4key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod5key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod6key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod7key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod8key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    },
+    "mod9key": {
+      "key_name": "",
+      "modifiers": {
+        "Win": false,
+        "Ctrl": false,
+        "Alt": false,
+        "Shift": false
+      }
+    }
+  }
+}
