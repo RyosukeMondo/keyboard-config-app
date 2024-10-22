@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
 import defaultKeyAssignments from '../data/key_assignments';
+import keyConfigs from '../config/key_config'; // Import key configurations
 
 export const KeyAssignContext = createContext();
 
@@ -7,6 +8,7 @@ export const KeyAssignProvider = ({ children }) => {
   const [keyAssignments, setKeyAssignments] = useState({});
   const [mode, setMode] = useState('default'); // Modes: default, pretty, subst, modifiers, mod0 ~ mod9
   const [isUpsideDown, setIsUpsideDown] = useState(false); // New state for upside-down toggle
+  const [selectedConfig, setSelectedConfig] = useState('Default'); // New state for selected key config
 
   // Load from localStorage or initialize with defaults
   useEffect(() => {
@@ -26,6 +28,11 @@ export const KeyAssignProvider = ({ children }) => {
     if (storedUpsideDown) {
       setIsUpsideDown(JSON.parse(storedUpsideDown));
     }
+
+    const storedSelectedConfig = localStorage.getItem('selectedConfig');
+    if (storedSelectedConfig) {
+      setSelectedConfig(storedSelectedConfig);
+    }
   }, []);
 
   // Persist keyAssignments to localStorage whenever they change
@@ -42,6 +49,11 @@ export const KeyAssignProvider = ({ children }) => {
   useEffect(() => {
     localStorage.setItem('isUpsideDown', JSON.stringify(isUpsideDown));
   }, [isUpsideDown]);
+
+  // Persist selectedConfig to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('selectedConfig', selectedConfig);
+  }, [selectedConfig]);
 
   // CRUD operations
   const createKeyAssign = (key_name, data) => {
@@ -73,6 +85,10 @@ export const KeyAssignProvider = ({ children }) => {
     setIsUpsideDown((prev) => !prev);
   };
 
+  const changeSelectedConfig = (configName) => {
+    setSelectedConfig(configName);
+  };
+
   return (
     <KeyAssignContext.Provider
       value={{
@@ -82,6 +98,8 @@ export const KeyAssignProvider = ({ children }) => {
         setMode,
         isUpsideDown,
         toggleUpsideDown,
+        selectedConfig, // Provide selectedConfig in context
+        changeSelectedConfig, // Function to change selectedConfig
         createKeyAssign,
         updateKeyAssign,
         deleteKeyAssign,
