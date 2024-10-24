@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { KeyAssignContext } from '../context/KeyAssignContext';
-import KeyAssignModal from './KeyAssignModal';
+import KeyAssignModal from './keyAssign/KeyAssignModal';
 import './Key.css';
 
 const Key = ({ key_name, width, height }) => {

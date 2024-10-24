@@ -6,7 +6,7 @@ import AssignDefault from './AssignDefault';
 import AssignPretty from './AssignPretty';
 import AssignSubst from './AssignSubst';
 import AssignMod from './AssignMod';
-import key_names from '../../data/key_names';
+import { key_names } from '../../data/key_names';
 
 Modal.setAppElement('#root'); // Accessibility
 

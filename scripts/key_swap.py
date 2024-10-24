@@ -2,37 +2,59 @@ import json
 import os
 
 # Define file paths
-base_json_path = r"C:\Users\ryosu\yamy\key_assignments_lr.json"
-swapped_json_path = r"C:\Users\ryosu\yamy\key_assignments_lr_ud.json"
+base_json_path = r"C:\Users\ryosu\yamy\key_assignments_lr_ud.json"
+swapped_json_path = r"C:\Users\ryosu\yamy\key_assignments_lr_ud2.json"
 
 # Define swap pairs
 swap_pairs = [
-    ("_1", "RShift"),
-    ("_2", "ReverseSolidus"),
-    ("_3", "Slash"),
-    ("_4", "Period"),
-    ("_5", "Comma"),
-    ("_6", "M"),
-    ("_7", "N"),
-    ("_8", "B"),
-    ("_9", "V"),
-    ("_0", "C"),
-    ("Minus", "X"),
-    ("Caret", "Z"),
+    ("F7", "Esc"),
+    ("F6", "F7"),
+    ("F5", "F6"),
+    ("F4", "F5"),
+    ("F3", "F4"),
+    ("F2", "F3"),
+    ("F1", "F2"),
+    ("Esc", "F1"),
 
-    ("Q", "CloseBracket"),
-    ("W", "Colon"),
-    ("E", "Semicolon"),
-    ("R", "L"),
-    ("T", "K"),
-    ("Y", "J"),
-    ("U", "H"),
-    ("I", "G"),
-    ("O", "F"),
-    ("P", "D"),
-    ("Atmark", "S"),
-    ("OpenBracket", "A"),
+    ("Kanji", "_1"),
+    ("_1", "_2"),
+    ("_2", "_3"),
+    ("_3", "_4"),
+    ("_4", "_5"),
+    ("_5", "_6"),
+    ("_6", "Kanji"),
+
+    ("Tab", "Q"),
+    ("Q", "W"),
+    ("W", "E"),
+    ("E", "R"),
+    ("R", "T"),
+    ("T", "Y"),
+    ("Y", "Tab"),
+
+    ("A", "S"),
+    ("S", "D"),
+    ("D", "F"),
+    ("F", "G"),
+    ("G", "H"),
+    ("H", "Eisuu"),
+
+    ("LShift", "Z"),
+    ("Z", "X"),
+    ("X", "C"),
+    ("C", "V"),
+    ("V", "B"),
+    ("B", "N"),
+    ("N", "LShift"),
+
+    ("FN", "LCtrl"),
+    ("LCtrl", "LWin"),
+    ("LWin", "LAlt"),
+    ("LAlt", "NonConvert"),
+    ("NonConvert", "Space"),
+    ("Space", "FN"),
 ]
+
 
 def load_json(file_path):
     """Load JSON data from a file."""
@@ -41,11 +63,13 @@ def load_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
+
 def save_json(data, file_path):
     """Save JSON data to a file."""
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=2)
     print(f"Swapped JSON saved to {file_path}")
+
 
 def swap_keys(data, swap_pairs):
     """Swap keys in the JSON data based on the swap_pairs list."""
@@ -63,8 +87,10 @@ def swap_keys(data, swap_pairs):
                 missing.append(key1)
             if key2 not in data_copy:
                 missing.append(key2)
-            print(f"Cannot swap '{key1}' with '{key2}': Missing keys {', '.join(missing)}")
+            print(
+                f"Cannot swap '{key1}' with '{key2}': Missing keys {', '.join(missing)}")
     return data_copy
+
 
 def main():
     try:
@@ -81,6 +107,7 @@ def main():
 
     except Exception as e:
         print(f"An error occurred: {e}")
+
 
 if __name__ == "__main__":
     main()
