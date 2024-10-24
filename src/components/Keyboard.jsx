@@ -1,13 +1,24 @@
 import React, { useContext } from 'react';
 import { KeyAssignContext } from '../context/KeyAssignContext';
 import KeyRow from './KeyRow';
-import keyConfig from '../config/key_config';
+import keyConfigs from '../config/key_config'; // Import all key configurations
 import './Keyboard.css';
 
 const Keyboard = () => {
-  const { isUpsideDown } = useContext(KeyAssignContext);
+  const { isUpsideDown, selectedConfig } = useContext(KeyAssignContext);
 
-  const displayedKeyConfig = isUpsideDown ? [...keyConfig].reverse() : keyConfig;
+  // Find the key_config that matches the selectedConfig
+  const currentConfigObj = keyConfigs.find(
+    (config) => config.config_name === selectedConfig
+  );
+
+  const currentKeyConfig = currentConfigObj
+    ? currentConfigObj.key_config
+    : keyConfigs[0].key_config; // Fallback to first config if not found
+
+  const displayedKeyConfig = isUpsideDown
+    ? [...currentKeyConfig].reverse()
+    : currentKeyConfig;
 
   return (
     <div className={`keyboard ${isUpsideDown ? 'upside-down' : ''}`}>

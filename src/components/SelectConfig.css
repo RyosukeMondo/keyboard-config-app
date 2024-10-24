@@ -1,0 +1,17 @@
+/* C:/Users/ryosuke.mondo/Documents/github/keyboard-config-app/src/components/SelectConfig.css */
+
+.select-config {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.select-config label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.select-config select {
+  padding: 5px;
+  font-size: 16px;
+}
