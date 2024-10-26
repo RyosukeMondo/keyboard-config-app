@@ -14,11 +14,11 @@ const Key = ({ key_name, width, height }) => {
 
   const getModifiersString = (modifiers) => {
     const modArray = [];
-    if (modifiers.Win) modArray.push('Win');
-    if (modifiers.Ctrl) modArray.push('Ctrl');
-    if (modifiers.Alt) modArray.push('Alt');
-    if (modifiers.Shift) modArray.push('Shift');
-    return modArray.join('+');
+    if (modifiers.Win) modArray.push('W');
+    if (modifiers.Ctrl) modArray.push('C');
+    if (modifiers.Alt) modArray.push('A');
+    if (modifiers.Shift) modArray.push('S');
+    return modArray.join('');
   };
 
   const getDisplayLabel = () => {
