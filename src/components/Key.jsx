@@ -38,6 +38,10 @@ const Key = ({ key_name, width, height }) => {
           const modNumber = mode.replace('mod', '');
           const modKey = currentAssign[`mod${modNumber}key`];
           if (modKey && modKey.key_name) {
+            console.log(modKey.note);
+            if (modKey.note && modKey.note !== '') {
+              return modKey.note; 
+            }
             const modifiers = getModifiersString(modKey.modifiers);
             return modifiers ? `${modifiers}+${modKey.key_name}` : modKey.key_name;
           }
@@ -50,11 +54,16 @@ const Key = ({ key_name, width, height }) => {
   const displayLabel = getDisplayLabel();
 
   // Determine CSS class based on mode
-  const modeClass = mode === 'pretty' ? 'pretty' :
-                    mode === 'subst' ? 'subst' :
-                    mode === 'modifiers' ? 'modifiers' :
-                    mode.startsWith('mod') ? `mod${mode.replace('mod', '')}` :
-                    'default';
+  const modeClass =
+    mode === 'pretty'
+      ? 'pretty'
+      : mode === 'subst'
+      ? 'subst'
+      : mode === 'modifiers'
+      ? 'modifiers'
+      : mode.startsWith('mod')
+      ? `mod${mode.replace('mod', '')}`
+      : 'default';
 
   const additionalClass = key_name === '' ? 'black' : '';
 

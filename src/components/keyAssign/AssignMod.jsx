@@ -1,7 +1,6 @@
 import React from 'react';
-import { key_names } from '../../data/key_names';
 
-const AssignMod = ({ modNumber, formData, handleChange }) => {
+const AssignMod = ({ modNumber, formData, handleChange, key_names }) => {
   return (
     <fieldset key={`mod${modNumber}key`} className="form-group">
       <legend>mod{modNumber} Key:</legend>
@@ -9,7 +8,7 @@ const AssignMod = ({ modNumber, formData, handleChange }) => {
         <label>Key Name:</label>
         <select
           name={`mod${modNumber}key.key_name`}
-          value={formData[`mod${modNumber}key`]?.key_name || ''}
+          value={formData?.key_name || ''}
           onChange={handleChange}
         >
           <option value="">Select a key</option>
@@ -21,18 +20,28 @@ const AssignMod = ({ modNumber, formData, handleChange }) => {
         </select>
       </div>
       <div className="form-group">
-        <legend>Modifiers:</legend>
+        <label>Modifiers:</label>
         {['Win', 'Ctrl', 'Alt', 'Shift'].map((mod) => (
           <label key={mod} className="checkbox-label">
             <input
               type="checkbox"
               name={`mod${modNumber}key.modifiers.${mod}`}
-              checked={formData[`mod${modNumber}key`]?.modifiers?.[mod] || false}
+              checked={formData?.modifiers?.[mod] || false}
               onChange={handleChange}
             />
             {mod}
           </label>
         ))}
+      </div>
+      <div className="form-group">
+        <label>Note:</label>
+        <input
+          type="text"
+          name={`mod${modNumber}key.note`}
+          value={formData?.note || ''}
+          onChange={handleChange}
+          placeholder="Enter a note"
+        />
       </div>
     </fieldset>
   );

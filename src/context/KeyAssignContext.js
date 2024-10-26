@@ -1,6 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
 import defaultKeyAssignments from '../data/key_assignments';
-import keyConfigs from '../config/key_config'; // Import key configurations
 
 export const KeyAssignContext = createContext();
 
@@ -68,7 +67,18 @@ export const KeyAssignProvider = ({ children }) => {
       ...prev,
       [key_name]: {
         ...prev[key_name],
-        ...data,
+        // Deep merge for nested modXkey fields
+        ...Object.keys(data).reduce((acc, key) => {
+          if (key.startsWith('mod') && key.endsWith('key')) {
+            acc[key] = {
+              ...prev[key_name][key],
+              ...data[key],
+            };
+          } else {
+            acc[key] = data[key];
+          }
+          return acc;
+        }, {}),
       },
     }));
   };

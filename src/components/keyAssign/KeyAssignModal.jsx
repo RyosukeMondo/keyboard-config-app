@@ -10,7 +10,7 @@ import { key_names } from '../../data/key_names';
 
 Modal.setAppElement('#root'); // Accessibility
 
-const defaultModKey = { key_name: '', modifiers: { Win: false, Ctrl: false, Alt: false, Shift: false } };
+const defaultModKey = { key_name: '', modifiers: { Win: false, Ctrl: false, Alt: false, Shift: false }, note: '' };
 
 const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
   const { keyAssignments, updateKeyAssign, mode } = useContext(KeyAssignContext);
@@ -25,7 +25,7 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
       Shift: false,
       mod: -1,
     },
-    ...Object.fromEntries(Array.from({ length: 10 }, (_, i) => [`mod${i}key`, defaultModKey])),
+    ...Object.fromEntries(Array.from({ length: 10 }, (_, i) => [`mod${i}key`, { ...defaultModKey }]))
   });
 
   useEffect(() => {
@@ -37,10 +37,29 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
         ...Object.fromEntries(
           Array.from({ length: 10 }, (_, i) => [
             `mod${i}key`,
-            assignment[`mod${i}key`] || defaultModKey
+            {
+              key_name: assignment[`mod${i}key`]?.key_name || '',
+              modifiers: assignment[`mod${i}key`]?.modifiers || { Win: false, Ctrl: false, Alt: false, Shift: false },
+              note: assignment[`mod${i}key`]?.note || ''
+            }
           ])
         ),
       }));
+    } else {
+      // Reset to default if no assignment exists
+      setFormData({
+        pretty: [],
+        subst: '',
+        is_one_shot: false,
+        modifiers: {
+          Win: false,
+          Ctrl: false,
+          Alt: false,
+          Shift: false,
+          mod: -1,
+        },
+        ...Object.fromEntries(Array.from({ length: 10 }, (_, i) => [`mod${i}key`, { ...defaultModKey }]))
+      });
     }
   }, [keyAssignments, keyName]);
 
@@ -71,6 +90,12 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
             [modifier]: checked,
           },
         };
+      } else if (name.startsWith('mod') && name.endsWith('.note')) {
+        const [modKey, , noteField] = name.split('.');
+        newFormData[modKey] = {
+          ...newFormData[modKey],
+          note: value,
+        };
       } else {
         newFormData[name] = type === 'checkbox'
           ? checked
@@ -83,12 +108,11 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
     });
   };
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
     updateKeyAssign(keyName, formData);
     onRequestClose();
-  });
+  }, [updateKeyAssign, keyName, formData, onRequestClose]);
 
   // Handle keyboard shortcuts
   const handleKeyDown = useCallback((e) => {
@@ -123,7 +147,7 @@ const KeyAssignModal = ({ isOpen, onRequestClose, keyName }) => {
       return <AssignSubst formData={formData} handleChange={handleChange} key_names={key_names} />;
     } else if (mode.startsWith('mod')) {
       const modNumber = mode.replace('mod', '');
-      return <AssignMod modNumber={modNumber} formData={formData} handleChange={handleChange} key_names={key_names} />;
+      return <AssignMod modNumber={modNumber} formData={formData[`mod${modNumber}key`]} handleChange={handleChange} key_names={key_names} />;
     }
     return null;
   };

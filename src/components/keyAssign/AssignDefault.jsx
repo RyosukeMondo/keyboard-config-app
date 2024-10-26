@@ -1,4 +1,5 @@
 import React from 'react';
+import AssignMod from './AssignMod';
 
 const AssignDefault = ({ formData, handleChange, key_names }) => {
   return (
@@ -68,38 +69,13 @@ const AssignDefault = ({ formData, handleChange, key_names }) => {
       </fieldset>
       {/* Render all mod0~mod9 configurations */}
       {Array.from({ length: 10 }, (_, i) => (
-        <fieldset key={`mod${i}key`} className="form-group">
-          <legend>mod{i} Key:</legend>
-          <div className="form-group">
-            <label>Key Name:</label>
-            <select
-              name={`mod${i}key.key_name`}
-              value={formData[`mod${i}key`]?.key_name || ''}
-              onChange={handleChange}
-            >
-              <option value="">Select a key</option>
-              {key_names.map((key) => (
-                <option key={key} value={key}>
-                  {key}
-                </option>
-              ))}
-            </select>
-          </div>
-          <div className="form-group">
-            <legend>Modifiers:</legend>
-            {['Win', 'Ctrl', 'Alt', 'Shift'].map((mod) => (
-              <label key={mod} className="checkbox-label">
-                <input
-                  type="checkbox"
-                  name={`mod${i}key.modifiers.${mod}`}
-                  checked={formData[`mod${i}key`]?.modifiers?.[mod] || false}
-                  onChange={handleChange}
-                />
-                {mod}
-              </label>
-            ))}
-          </div>
-        </fieldset>
+        <AssignMod
+          key={i}
+          modNumber={i}
+          formData={formData[`mod${i}key`]}
+          handleChange={handleChange}
+          key_names={key_names}
+        />
       ))}
     </>
   );
