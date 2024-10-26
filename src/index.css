@@ -2,16 +2,99 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Default Theme */
+:root {
+  --color-primary: #4d7100; /* Original: Indigo-600 */
+  --color-secondary: #6b7280; /* Gray-500 */
+  --color-background: #ffffff;
+  --color-surface: #f9f9f9;
+  --color-text: #1f2937; /* Gray-800 */
+  --color-accent: #10b981; /* Green-500 */
+}
+
+/* Theme: Light */
+.theme-light {
+  --color-primary: #1d4ed8; /* Blue-700 */
+  --color-secondary: #6b7280; /* Gray-500 */
+  --color-background: #ffffff;
+  --color-surface: #f3f4f6; /* Gray-100 */
+  --color-text: #111827; /* Gray-900 */
+  --color-accent: #f59e0b; /* Amber-500 */
+}
+
+/* Theme: Dark */
+.theme-dark {
+  --color-primary: #9333ea; /* Purple-600 */
+  --color-secondary: #9ca3af; /* Gray-400 */
+  --color-background: #1f2937; /* Gray-800 */
+  --color-surface: #374151; /* Gray-700 */
+  --color-text: #f9fafb; /* Gray-50 */
+  --color-accent: #f97316; /* Orange-500 */
+}
+
+/* Theme: Blue */
+.theme-blue {
+  --color-primary: #2563eb; /* Blue-600 */
+  --color-secondary: #4b5563; /* Gray-600 */
+  --color-background: #e0f2fe; /* Blue-100 */
+  --color-surface: #bfdbfe; /* Blue-200 */
+  --color-text: #1e3a8a; /* Blue-900 */
+  --color-accent: #3b82f6; /* Blue-500 */
+}
+
+/* Theme: Pastel */
+.theme-pastel {
+  --color-primary: #a78bfa; /* Purple-300 */
+  --color-secondary: #c4b5fd; /* Purple-200 */
+  --color-background: #fdf4ff; /* Purple-50 */
+  --color-surface: #e0e7ff; /* Indigo-200 */
+  --color-text: #4f46e5; /* Indigo-600 */
+  --color-accent: #fbcfe8; /* Pink-300 */
+}
+
+/* Theme: High Contrast */
+.theme-high-contrast {
+  --color-primary: #000000; /* Black */
+  --color-secondary: #ffffff; /* White */
+  --color-background: #ffffff;
+  --color-surface: #000000;
+  --color-text: #000000;
+  --color-accent: #ff0000; /* Red */
+}
+
+/* Theme: Soft Neutrals */
+.theme-soft-neutral {
+  --color-primary: #b45309; /* Amber-700 */
+  --color-secondary: #6b7280; /* Gray-500 */
+  --color-background: #fef3c7; /* Amber-100 */
+  --color-surface: #f3f4f6; /* Gray-100 */
+  --color-text: #374151; /* Gray-700 */
+  --color-accent: #10b981; /* Green-500 */
+}
+
+/* Theme: Monochrome */
+.theme-monochrome {
+  --color-primary: #1f2937; /* Gray-800 */
+  --color-secondary: #4b5563; /* Gray-600 */
+  --color-background: #f9fafb; /* Gray-50 */
+  --color-surface: #d1d5db; /* Gray-300 */
+  --color-text: #111827; /* Gray-900 */
+  --color-accent: #6b7280; /* Gray-500 */
+}
+
+/* Body Styling to Apply Themes */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Fira Code', monospace;
 }

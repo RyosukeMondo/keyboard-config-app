@@ -1,0 +1,65 @@
+.explain-container {
+  padding: 24px;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb; /* Gray-200 */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', sans-serif;
+}
+
+.explain-title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 1.75rem;
+  color: var(--color-primary);
+}
+
+.explain-section {
+  margin-bottom: 20px;
+}
+
+.explain-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.explain-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.explain-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.explain-list,
+.explain-ordered-list {
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+.explain-list-item {
+  margin-bottom: 6px;
+  font-size: 1rem;
+  color: var(--color-secondary);
+}
+
+.explain-ordered-list li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: var(--color-secondary);
+}
+
+.explain-code {
+  background-color: #f3f4f6; /* Gray-100 */
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+}

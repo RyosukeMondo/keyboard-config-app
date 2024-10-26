@@ -1,37 +1,58 @@
-/* src/components/Preview.css */
-
 .preview-container {
-  border: 1px solid #ccc;
-  padding: 16px;
+  border: 1px solid #e5e7eb; /* Gray-200 */
+  padding: 24px;
   margin-top: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.preview-title {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  text-align: center;
 }
 
 .view-switcher {
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 16px;
 }
 
-.view-switcher button {
-  margin-right: 10px;
-  padding: 8px 16px;
-  cursor: pointer;
+.switch-button {
+  flex: 1;
+  max-width: 150px;
 }
 
-.view-switcher button.active {
-  background-color: #007bff;
-  color: white;
-  border: none;
-}
-
-/* align left */
 .preview-content {
-  max-height: 200px;
-  overflow: auto;
-  align-content: left;
-  background-color: #f9f9f9;
-  padding: 10px;
-  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: var(--color-surface);
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db; /* Gray-300 */
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  color: var(--color-text);
 }
 
-.preview-item {
-  margin-bottom: 10px;
+.preview-content pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }

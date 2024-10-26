@@ -28,8 +28,8 @@ const ModeSelector = () => {
 
   return (
     <div className="mode-selector">
-      <label htmlFor="mode">Select Mode: </label>
-      <select id="mode" value={mode} onChange={handleModeChange}>
+      <label htmlFor="mode">Select Mode:</label>
+      <select id="mode" value={mode} onChange={handleModeChange} aria-label="Select Mode">
         {modes.map((m) => (
           <option key={m} value={m}>
             {m.charAt(0).toUpperCase() + m.slice(1)}
@@ -45,6 +45,7 @@ const ModeSelector = () => {
           id="upsideDownToggle"
           checked={isUpsideDown}
           onChange={toggleUpsideDown}
+          aria-label="Toggle Upside Down"
         />
       </div>
     </div>

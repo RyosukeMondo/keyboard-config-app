@@ -1,17 +1,31 @@
-/* C:/Users/ryosuke.mondo/Documents/github/keyboard-config-app/src/components/SelectConfig.css */
-
 .select-config {
   margin: 20px 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .select-config label {
   margin-right: 10px;
-  font-weight: bold;
+  font-weight: 600;
+  color: var(--color-text);
 }
 
 .select-config select {
-  padding: 5px;
+  padding: 8px 12px;
   font-size: 16px;
+  border: 1px solid #d1d5db; /* Gray-300 */
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+.select-config select:hover {
+  border-color: var(--color-primary);
+}
+
+.select-config select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
 }

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { KeyAssignContext } from '../context/KeyAssignContext';
+import './Uploader.css';
 
 const Uploader = () => {
   const { setKeyAssignments } = useContext(KeyAssignContext);
@@ -24,12 +25,13 @@ const Uploader = () => {
 
   return (
     <div className="uploader-container">
-      <h2>Upload Key Assignments</h2>
+      <h2 className="uploader-title">Upload Key Assignments</h2>
       <input
         type="file"
         accept=".json"
         onChange={handleFileUpload}
         className="file-input"
+        aria-label="Upload Key Assignments"
       />
       <p className="upload-instructions">
         Select a JSON file containing key assignments to update the current configuration.

@@ -15,8 +15,8 @@ const Preview = () => {
   };
 
   const getContent = useCallback(() => {
-    return viewMode === 'json' 
-      ? JSON.stringify(keyAssignments, null, 2) 
+    return viewMode === 'json'
+      ? JSON.stringify(keyAssignments, null, 2)
       : textOutput;
   }, [viewMode, keyAssignments, textOutput]);
 
@@ -26,12 +26,13 @@ const Preview = () => {
       alert('Copied to clipboard!');
     } catch (err) {
       console.error('Failed to copy: ', err);
+      alert('Failed to copy to clipboard.');
     }
   };
 
   const downloadContent = () => {
     const element = document.createElement('a');
-    const file = new Blob([getContent()], {type: 'text/plain'});
+    const file = new Blob([getContent()], { type: 'text/plain' });
     element.href = URL.createObjectURL(file);
     element.download = `key_assignments.${viewMode === 'json' ? 'json' : 'txt'}`;
     document.body.appendChild(element);
@@ -41,17 +42,19 @@ const Preview = () => {
 
   return (
     <div className="preview-container">
-      <h2>Key Assignments Preview</h2>
+      <h2 className="preview-title">Key Assignments Preview</h2>
       <div className="view-switcher">
         <Button
           onClick={() => handleViewChange('json')}
-          variant={viewMode === 'json' ? 'default' : 'outline'}
+          variant={viewMode === 'json' ? 'primary' : 'outline'}
+          className="switch-button"
         >
           JSON Preview
         </Button>
         <Button
           onClick={() => handleViewChange('text')}
-          variant={viewMode === 'text' ? 'default' : 'outline'}
+          variant={viewMode === 'text' ? 'primary' : 'outline'}
+          className="switch-button"
         >
           Text Preview
         </Button>
@@ -60,11 +63,11 @@ const Preview = () => {
         <pre>{getContent()}</pre>
       </div>
       <div className="action-buttons">
-        <Button onClick={copyToClipboard} className="mr-2">
-          <Clipboard className="mr-2 h-4 w-4" /> Copy to Clipboard
+        <Button onClick={copyToClipboard} className="action-button">
+          <Clipboard className="icon" /> Copy to Clipboard
         </Button>
-        <Button onClick={downloadContent}>
-          <Download className="mr-2 h-4 w-4" /> Download
+        <Button onClick={downloadContent} className="action-button">
+          <Download className="icon" /> Download
         </Button>
       </div>
     </div>
