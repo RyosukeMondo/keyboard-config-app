@@ -16,12 +16,27 @@ function App() {
       </header>
       <main className="app-main">
         <Themeswitcher />
-        <SelectConfig />
-        <ModeSelector />
+        <details>
+          <summary>Configuration</summary>
+          <SelectConfig />
+        </details>
+        <details>
+          <summary>Mode Selection</summary>
+          <ModeSelector />
+        </details>
         <Keyboard />
-        <Preview />
-        <Uploader />
-        <Explain />
+        <details>
+          <summary>Preview</summary>
+          <Preview />
+        </details>
+        <details>
+          <summary>Upload Configuration</summary>
+          <Uploader />
+        </details>
+        <details>
+          <summary>Explanation</summary>
+          <Explain />
+        </details>
       </main>
       <footer className="app-footer">
         <p>&copy; {new Date().getFullYear()} Keyboard Config App. All rights reserved.</p>
